@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/regist"
+    tools:context=".SignupPage">
+
+    <EditText
+        android:id="@+id/usernametxt"
+        android:layout_width="265dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="428dp"
+        android:drawableBottom="@color/black"
+        android:hint="Username"
+        android:maxLength="28"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="#818181" />
+
+    <EditText
+        android:id="@+id/emailtxt"
+        android:layout_width="265dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="505dp"
+        android:drawableBottom="@color/black"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:maxLength="28"
+        android:textColor="@color/black"
+        android:textColorHint="#818181" />
+
+    <EditText
+        android:id="@+id/passwrodtxt"
+        android:layout_width="265dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="584dp"
+        android:drawableBottom="@color/black"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLength="28"
+        android:textColor="@color/black"
+        android:textColorHint="#818181" />
+
+    <Button
+        android:id="@+id/signinbtn"
+        android:layout_width="320dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="680dp"
+        android:backgroundTint="@color/white"
+        android:text="Sign Up"
+        android:textColor="@color/black"
+        app:cornerRadius="20px" />
+
+
+
+</RelativeLayout>

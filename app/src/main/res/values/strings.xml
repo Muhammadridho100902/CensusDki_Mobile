@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CensusDKI</string>
+    <string name="welcome">TextView</string>
+</resources>

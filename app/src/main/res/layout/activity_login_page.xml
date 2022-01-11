@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frame3"
+    tools:context=".LoginPage">
+
+    <EditText
+        android:id="@+id/username1"
+        android:layout_width="265dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="480dp"
+        android:drawableBottom="@color/black"
+        android:hint="Username"
+        android:maxLength="28"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="#818181" />
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="265dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="567dp"
+        android:drawableBottom="@color/black"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLength="28"
+        android:textColor="@color/black"
+        android:textColorHint="#818181" />
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="320dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="655dp"
+        android:backgroundTint="@color/white"
+        android:text="Login"
+        android:textColor="@color/black"
+        app:cornerRadius="20px" />
+
+
+</RelativeLayout>

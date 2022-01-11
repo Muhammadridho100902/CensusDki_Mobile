@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/onboarding"
+    tools:context=".onboarding">
+
+    <Button
+        android:id="@+id/loginbtn1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="@color/white"
+        app:cornerRadius="20dp"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="700dp"
+        android:text="Or"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="@color/cardview_dark_background"
+        />
+
+    <Button
+        android:id="@+id/signupbtn1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="720dp"
+        app:backgroundTint="#83BDF9"
+        app:cornerRadius="20dp"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/white"
+        />
+
+</RelativeLayout>

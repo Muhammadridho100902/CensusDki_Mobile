@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frame6"
+    android:padding="16dp"
+    tools:context=".Home">
+
+    <Button
+        android:id="@+id/showdata"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="400dp"
+        app:cornerRadius="20dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:text="History"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/registerdata"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignRight="@+id/showdata"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="-188dp"
+        app:cornerRadius="20dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:text="Register"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/logoutbtn"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/registerdata"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        app:backgroundTint="#78F278"
+        app:cornerRadius="15dp"
+        android:text="Log Out"
+        android:textAllCaps="false"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>
