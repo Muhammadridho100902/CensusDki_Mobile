@@ -43,10 +43,10 @@
         android:layout_below="@+id/registerdata"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
-        app:backgroundTint="#78F278"
-        app:cornerRadius="15dp"
         android:text="Log Out"
         android:textAllCaps="false"
-        android:textColor="@color/white"/>
+        android:textColor="@color/white"
+        app:backgroundTint="#78F278"
+        app:cornerRadius="15dp" />
 
 </RelativeLayout>

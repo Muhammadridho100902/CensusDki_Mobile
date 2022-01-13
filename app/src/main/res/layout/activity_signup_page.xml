@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,52 +11,60 @@
         android:id="@+id/usernametxt"
         android:layout_width="265dp"
         android:layout_height="40dp"
-        android:layout_marginLeft="60dp"
-        android:layout_marginTop="428dp"
+        android:layout_marginTop="370dp"
         android:drawableBottom="@color/black"
         android:hint="Username"
-        android:maxLength="28"
         android:inputType="text"
+        android:maxLength="28"
         android:textColor="@color/black"
-        android:textColorHint="#818181" />
+        android:textColorHint="#818181"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/emailtxt"
         android:layout_width="265dp"
         android:layout_height="40dp"
-        android:layout_marginLeft="60dp"
-        android:layout_marginTop="505dp"
+        android:layout_marginTop="32dp"
         android:drawableBottom="@color/black"
         android:hint="Email"
         android:inputType="textEmailAddress"
         android:maxLength="28"
         android:textColor="@color/black"
-        android:textColorHint="#818181" />
+        android:textColorHint="#818181"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usernametxt" />
 
     <EditText
         android:id="@+id/passwrodtxt"
         android:layout_width="265dp"
         android:layout_height="40dp"
-        android:layout_marginLeft="60dp"
-        android:layout_marginTop="584dp"
+        android:layout_marginTop="32dp"
         android:drawableBottom="@color/black"
         android:hint="Password"
         android:inputType="textPassword"
         android:maxLength="28"
         android:textColor="@color/black"
-        android:textColorHint="#818181" />
+        android:textColorHint="#818181"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailtxt" />
 
     <Button
         android:id="@+id/signinbtn"
         android:layout_width="320dp"
         android:layout_height="65dp"
-        android:layout_marginLeft="33dp"
-        android:layout_marginTop="680dp"
+        android:layout_marginTop="32dp"
         android:backgroundTint="@color/white"
         android:text="Sign Up"
         android:textColor="@color/black"
-        app:cornerRadius="20px" />
+        app:cornerRadius="20px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwrodtxt" />
 
 
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
