@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,39 +12,44 @@
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="650dp"
         android:backgroundTint="@color/white"
-        app:cornerRadius="20dp"
-        android:text="Login"
-        android:textColor="@color/black"
-        android:textAlignment="center"
-        android:textSize="16dp"
         android:fontFamily="sans-serif-condensed-medium"
-        />
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:layout_width="match_parent"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="700dp"
         android:text="Or"
         android:textAlignment="center"
-        android:textSize="16sp"
         android:textColor="@color/cardview_dark_background"
-        />
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/signupbtn1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/signupbtn1"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="720dp"
-        app:backgroundTint="#83BDF9"
-        app:cornerRadius="20dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-condensed-medium"
         android:text="Sign Up"
         android:textAlignment="center"
-        android:textSize="16dp"
-        android:fontFamily="sans-serif-condensed-medium"
         android:textColor="@color/white"
-        />
+        android:textSize="16dp"
+        app:backgroundTint="#83BDF9"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
