@@ -31,7 +31,7 @@
         android:layout_marginRight="-188dp"
         app:cornerRadius="20dp"
         android:backgroundTint="@color/cardview_light_background"
-        android:text="Register"
+        android:text="Add Data"
         android:textColor="@color/black"
         android:textAllCaps="false"
         />
